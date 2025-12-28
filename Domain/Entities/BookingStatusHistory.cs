@@ -2,11 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class BookingStatusHistory
+    public class BookingStatusHistory
     {
         public long Id { get; set; }
         public long BookingId { get; set; }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    internal class Refund
+    public class Refund
     {
         public long Id { get; set; }
         public long PaymentId { get; set; }

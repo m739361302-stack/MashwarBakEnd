@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class Customer
+    public class Customer
     {
         public long UserId { get; set; }
         public int? CityId { get; set; }

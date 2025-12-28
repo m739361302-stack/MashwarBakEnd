@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class Trip
+    public class Trip
     {
         public long Id { get; set; }
         public long DriverUserId { get; set; }

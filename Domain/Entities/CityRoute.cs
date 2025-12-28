@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    internal class CityRoute
+    public class CityRoute
     {
         public long Id { get; set; }
         public int FromCityId { get; set; }

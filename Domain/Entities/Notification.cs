@@ -2,11 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class Notification
+    public class Notification
     {
         public long Id { get; set; }
         public long UserId { get; set; }

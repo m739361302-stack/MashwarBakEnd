@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    internal class User
+    public class User
     {
         public long Id { get; set; }
         public UserType UserType { get; set; }

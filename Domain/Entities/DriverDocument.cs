@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    internal class DriverDocument
+    public class DriverDocument
     {
         public long Id { get; set; }
         public long DriverUserId { get; set; }

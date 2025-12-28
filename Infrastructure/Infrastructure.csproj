@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
-=======
+
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="10.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.0" />
@@ -17,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
->>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
   </ItemGroup>
+
 
 </Project>

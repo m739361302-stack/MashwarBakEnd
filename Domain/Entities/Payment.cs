@@ -2,11 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class Payment
+    public class Payment
     {
         public long Id { get; set; }
         public string PaymentCode { get; set; } = null!;

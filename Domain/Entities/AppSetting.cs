@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class AppSetting
+    public class AppSetting
     {
         public int Id { get; set; }
         public string Key { get; set; } = null!;

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using static Domain.Entities.Mashwar;
 
 namespace Domain.Entities
 {
-    internal class City
+    public class City
     {
         public int Id { get; set; }
         public string NameAr { get; set; } = null!;
