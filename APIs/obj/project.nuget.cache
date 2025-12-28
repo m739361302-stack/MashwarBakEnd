@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2H2ih1pS1yY=",
+  "dgSpecHash": "gjJFIP5KAMs=",
   "success": true,
-  "projectFilePath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
+  "projectFilePath": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\96653\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\96653\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\96653\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
