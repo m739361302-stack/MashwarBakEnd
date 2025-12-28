@@ -16,5 +16,15 @@
     "C:\\Users\\96653\\.nuget\\packages\\microsoft.extensions.options\\10.0.1\\microsoft.extensions.options.10.0.1.nupkg.sha512",
     "C:\\Users\\96653\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

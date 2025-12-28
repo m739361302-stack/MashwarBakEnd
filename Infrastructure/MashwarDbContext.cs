@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,6 +7,19 @@ namespace Infrastructure
 {
     using Microsoft.EntityFrameworkCore;
 
+=======
+﻿using Microsoft.EntityFrameworkCore;
+
+
+using System;
+using System.Collections.Generic;
+using System.Reflection.Emit;
+using System.Text;
+using static Domain.Entities.Mashwar;
+
+namespace Infrastructure
+{
+>>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
     public class MashwarDbContext : DbContext
     {
         public MashwarDbContext(DbContextOptions<MashwarDbContext> options) : base(options) { }
@@ -47,6 +61,16 @@ namespace Infrastructure
                 e.HasOne(x => x.Customer).WithOne(x => x.User).HasForeignKey<Customer>(x => x.UserId);
                 e.HasOne(x => x.Driver).WithOne(x => x.User).HasForeignKey<Driver>(x => x.UserId);
                 e.HasOne(x => x.UserSettings).WithOne(x => x.User).HasForeignKey<UserSettings>(x => x.UserId);
+<<<<<<< HEAD
+=======
+
+                // NEW: self reference for reviewed by
+                e.HasOne(x => x.ApprovalReviewedByUser)
+                    .WithMany() // أو .WithMany(u => u.ReviewedUsers) لو أضفتها
+                    .HasForeignKey(x => x.ApprovalReviewedByUserId)
+                    .OnDelete(DeleteBehavior.NoAction);
+
+>>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
             });
 
             modelBuilder.Entity<City>(e =>
@@ -247,7 +271,56 @@ namespace Infrastructure
 
                 e.HasOne(x => x.User).WithMany(x => x.Notifications).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
             });
+<<<<<<< HEAD
         }
     }
 
+=======
+            modelBuilder.Entity<Driver>(e =>
+            {
+                e.ToTable("Drivers");
+                e.HasKey(x => x.UserId);
+
+                e.Property(x => x.RatingAvg).HasPrecision(3, 2);
+
+                // NEW fields
+                e.Property(x => x.NationalId).HasMaxLength(20);
+                e.Property(x => x.LicenseNumber).HasMaxLength(50);
+                e.Property(x => x.Iban).HasMaxLength(34);
+
+                // إذا استخدمت DateOnly:
+                // e.Property(x => x.LicenseExpiry).HasColumnType("date");
+
+                e.HasIndex(x => x.CityId);
+                e.HasIndex(x => x.IsAvailable);
+
+                // Unique filtered indexes (مثل SQL)
+                e.HasIndex(x => x.NationalId).IsUnique().HasFilter("[NationalId] IS NOT NULL");
+                e.HasIndex(x => x.LicenseNumber).IsUnique().HasFilter("[LicenseNumber] IS NOT NULL");
+
+                e.HasOne(x => x.City).WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.NoAction);
+            });
+
+            modelBuilder.Entity<DriverDocument>(e =>
+            {
+                e.ToTable("DriverDocuments");
+                e.HasKey(x => x.Id);
+
+                e.Property(x => x.DocType).HasConversion<byte>();
+                e.Property(x => x.FileUrl).HasMaxLength(500).IsRequired();
+                e.Property(x => x.Note).HasMaxLength(250);
+
+                e.HasIndex(x => new { x.DriverUserId, x.UploadedAt });
+                e.HasIndex(x => x.DocType);
+
+                e.HasOne(x => x.Driver)
+                    .WithMany(d => d.Documents)
+                    .HasForeignKey(x => x.DriverUserId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
+
+
+        }
+    }
+>>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
 }
