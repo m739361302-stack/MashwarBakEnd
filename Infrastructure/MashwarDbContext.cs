@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Infrastructure
+{
+    using Microsoft.EntityFrameworkCore;
+
+=======
 ﻿using Microsoft.EntityFrameworkCore;
 
 
@@ -9,6 +19,7 @@ using static Domain.Entities.Mashwar;
 
 namespace Infrastructure
 {
+>>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
     public class MashwarDbContext : DbContext
     {
         public MashwarDbContext(DbContextOptions<MashwarDbContext> options) : base(options) { }
@@ -50,6 +61,8 @@ namespace Infrastructure
                 e.HasOne(x => x.Customer).WithOne(x => x.User).HasForeignKey<Customer>(x => x.UserId);
                 e.HasOne(x => x.Driver).WithOne(x => x.User).HasForeignKey<Driver>(x => x.UserId);
                 e.HasOne(x => x.UserSettings).WithOne(x => x.User).HasForeignKey<UserSettings>(x => x.UserId);
+<<<<<<< HEAD
+=======
 
                 // NEW: self reference for reviewed by
                 e.HasOne(x => x.ApprovalReviewedByUser)
@@ -57,6 +70,7 @@ namespace Infrastructure
                     .HasForeignKey(x => x.ApprovalReviewedByUserId)
                     .OnDelete(DeleteBehavior.NoAction);
 
+>>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
             });
 
             modelBuilder.Entity<City>(e =>
@@ -257,6 +271,11 @@ namespace Infrastructure
 
                 e.HasOne(x => x.User).WithMany(x => x.Notifications).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
             });
+<<<<<<< HEAD
+        }
+    }
+
+=======
             modelBuilder.Entity<Driver>(e =>
             {
                 e.ToTable("Drivers");
@@ -303,4 +322,5 @@ namespace Infrastructure
 
         }
     }
+>>>>>>> fdfa5487b0aa738d95ef40ec1f6239967af2d1ca
 }
