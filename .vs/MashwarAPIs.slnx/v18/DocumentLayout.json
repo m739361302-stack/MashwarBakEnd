@@ -3,72 +3,60 @@
   "WorkspaceRootPath": "F:\\mohamed\\project\\MashwarBakEnd\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|f:\\mohamed\\project\\mashwarbakend\\domain\\entities\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|f:\\mohamed\\project\\mashwarbakend\\infrastructure\\mashwardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\mashwardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\devseedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\devseedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\apis.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\apis.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\MashwarDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\MashwarDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|f:\\mohamed\\project\\mashwarbakend\\domain\\entities\\mashwar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\mashwar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\dtos\\dev\\devseeddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\dtos\\dev\\devseeddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|f:\\mohamed\\project\\mashwarbakend\\domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\admindriverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\admindriverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|F:\\mohamed\\project\\MashwarBakEnd\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|f:\\mohamed\\project\\mashwarbakend\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|f:\\mohamed\\project\\mashwarbakend\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|d:\\learn web\\mypoject\\mashwarbakend\\mashwarapis\\apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|d:\\learn web\\mypoject\\mashwarbakend\\mashwarapis\\apis\\apis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\apis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\services\\security\\policies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\security\\policies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|d:\\learn web\\mypoject\\mashwarbakend\\mashwarapis\\apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\services\\admin\\admindriverapprovalsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\admin\\admindriverapprovalsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\interfaces\\admin\\iadmindriverapprovalsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\admin\\iadmindriverapprovalsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\dtos\\driverapprovaldtos\\driverapprovallistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\dtos\\driverapprovaldtos\\driverapprovallistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|d:\\learn web\\mypoject\\mashwarbakend\\mashwarapis\\application\\services\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|d:\\learn web\\mypoject\\mashwarbakend\\mashwarapis\\apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 553fbf78887d5c51ffbc92f402fd2fa330f601c4
     }
   ],
   "DocumentGroupContainers": [
@@ -78,215 +66,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Entities\\Entities.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Entities.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Entities\\Entities.cs",
-              "RelativeToolTip": "Domain\\Entities\\Entities.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwDIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T17:07:57.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "APIs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj",
-              "RelativeDocumentMoniker": "APIs\\APIs.csproj",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj",
-              "RelativeToolTip": "APIs\\APIs.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-28T16:59:47.787Z",
-=======
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Services\\Security\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\Security\\PasswordHasher.cs",
-              "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Services\\Security\\PasswordHasher.cs",
-              "RelativeToolTip": "Application\\Services\\Security\\PasswordHasher.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAawA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T20:18:26.827Z",
->>>>>>> 553fbf78887d5c51ffbc92f402fd2fa330f601c4
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAKACAAAAAAAAAAAQwKgCAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-12-28T16:55:01.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "APIs\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "APIs\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T16:54:54.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Infrastructure",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-27T18:27:33.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "MashwarDbContext.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\MashwarDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MashwarDbContext.cs",
               "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\MashwarDbContext.cs",
               "RelativeToolTip": "Infrastructure\\MashwarDbContext.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAuwNMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwEkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:27:56.614Z"
+              "WhenOpened": "2025-12-29T16:40:08.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Enums\\Enums.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\Enums.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Enums\\Enums.cs",
-              "RelativeToolTip": "Domain\\Enums\\Enums.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAA8wD8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:11:45.71Z"
+              "WhenOpened": "2025-12-29T17:01:26.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Mashwar.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Entities\\Mashwar.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Mashwar.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Entities\\Mashwar.cs",
-              "RelativeToolTip": "Domain\\Entities\\Mashwar.cs",
-              "ViewState": "AgIAAPwAAAAAAAAAAAAcwPkAAAA8AAAAAAAAAA==",
+              "Title": "DevSeedDtos.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\DTOs\\Dev\\DevSeedDtos.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\Dev\\DevSeedDtos.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\DTOs\\Dev\\DevSeedDtos.cs",
+              "RelativeToolTip": "Application\\DTOs\\Dev\\DevSeedDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:08:05.255Z"
+              "WhenOpened": "2025-12-29T16:58:40.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DevSeedController.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\DevSeedController.cs",
+              "RelativeDocumentMoniker": "APIs\\Controllers\\DevSeedController.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\DevSeedController.cs",
+              "RelativeToolTip": "APIs\\Controllers\\DevSeedController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAD4v2gAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:57:03.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Domain.csproj",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
-              "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-=======
-              "Title": "APIs",
-              "DocumentMoniker": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
-              "RelativeDocumentMoniker": "APIs\\APIs.csproj",
-              "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
-              "RelativeToolTip": "APIs\\APIs.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
->>>>>>> 553fbf78887d5c51ffbc92f402fd2fa330f601c4
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-28T20:13:06.614Z",
+              "Title": "Policies.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\Security\\Policies.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Security\\Policies.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\Security\\Policies.cs",
+              "RelativeToolTip": "Application\\Services\\Security\\Policies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:52:19.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 11,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AdminDriversController.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminDriversController.cs",
+              "RelativeDocumentMoniker": "APIs\\Controllers\\AdminDriversController.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminDriversController.cs",
+              "RelativeToolTip": "APIs\\Controllers\\AdminDriversController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T20:56:12.128Z"
+              "WhenOpened": "2025-12-29T16:49:10.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Class1.cs",
-              "RelativeToolTip": "Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T20:55:25.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Application\\Class1.cs",
-              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Class1.cs",
-              "RelativeToolTip": "Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T20:54:03.283Z"
-=======
               "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "APIs\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Properties\\launchSettings.json",
-              "RelativeToolTip": "APIs\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-28T20:02:18.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Program.cs",
-              "RelativeDocumentMoniker": "APIs\\Program.cs",
-              "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Program.cs",
-              "RelativeToolTip": "APIs\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIs\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIs\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T19:59:24.788Z",
+              "WhenOpened": "2025-12-29T16:35:14.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "APIs\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "APIs\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wJMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T19:58:58.753Z"
->>>>>>> 553fbf78887d5c51ffbc92f402fd2fa330f601c4
+              "WhenOpened": "2025-12-29T16:35:28.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDriverApprovalsService.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\Admin\\AdminDriverApprovalsService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Admin\\AdminDriverApprovalsService.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\Admin\\AdminDriverApprovalsService.cs",
+              "RelativeToolTip": "Application\\Services\\Admin\\AdminDriverApprovalsService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:43:51.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAdminDriverApprovalsService.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Interfaces\\Admin\\IAdminDriverApprovalsService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Admin\\IAdminDriverApprovalsService.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Interfaces\\Admin\\IAdminDriverApprovalsService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Admin\\IAdminDriverApprovalsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:44:27.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Program.cs",
+              "RelativeDocumentMoniker": "APIs\\Program.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Program.cs",
+              "RelativeToolTip": "APIs\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T14:13:22.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DriverApprovalListItemDto.cs",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\DTOs\\DriverApprovalDtos\\DriverApprovalListItemDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\DriverApprovalDtos\\DriverApprovalListItemDto.cs",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\DTOs\\DriverApprovalDtos\\DriverApprovalListItemDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\DriverApprovalDtos\\DriverApprovalListItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:47:08.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "APIs\\appsettings.json",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\appsettings.json",
+              "RelativeToolTip": "APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T16:39:54.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APIs\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APIs\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T14:12:31.057Z",
+              "EditorCaption": ""
             }
           ]
         }

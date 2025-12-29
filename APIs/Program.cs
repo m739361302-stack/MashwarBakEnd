@@ -1,6 +1,7 @@
-using Application.Interfaces;
+﻿using Application.Interfaces;
 using Application.Services;
 using Application.Services.Security;
+using Domain.Enums;
 using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,22 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy(Policies.AdminOnly, policy =>
+        policy.RequireClaim("userType", ((byte)UserType.Admin).ToString()));
+
+    // لاحقًا نستخدمها لصفحات السائق
+    options.AddPolicy(Policies.DriverApproved, policy =>
+    {
+        policy.RequireClaim("userType", ((byte)UserType.Driver).ToString());
+        policy.RequireClaim("approvalStatus", ((byte)ApprovalStatus.Approved).ToString());
+        policy.RequireClaim("isActive", "1");
+    });
+});
 
 var app = builder.Build();
 
