@@ -37,28 +37,20 @@ namespace Infrastructure
                 e.ToTable("Users");
                 e.HasKey(x => x.Id);
 
-                e.Property(x => x.UserType).HasConversion<byte>();
-                e.Property(x => x.FullName).HasMaxLength(150).IsRequired();
-                e.Property(x => x.Phone).HasMaxLength(20).IsRequired();
-                e.Property(x => x.Email).HasMaxLength(150);
-                e.Property(x => x.PasswordHash).HasMaxLength(500).IsRequired();
+                // مهم جداً: علاقات one-to-one الصحيحة
+                e.HasOne(u => u.Driver)
+                    .WithOne(d => d.User)
+                    .HasForeignKey<Driver>(d => d.UserId);
 
-                e.HasIndex(x => x.Phone).IsUnique();
-                e.HasIndex(x => x.Email).IsUnique().HasFilter("[Email] IS NOT NULL");
-                e.HasIndex(x => x.UserType);
-                e.HasIndex(x => x.IsActive);
+                e.HasOne(u => u.Customer)
+                    .WithOne(c => c.User)
+                    .HasForeignKey<Customer>(c => c.UserId);
 
-                e.HasOne(x => x.Customer).WithOne(x => x.User).HasForeignKey<Customer>(x => x.UserId);
-                e.HasOne(x => x.Driver).WithOne(x => x.User).HasForeignKey<Driver>(x => x.UserId);
-                e.HasOne(x => x.UserSettings).WithOne(x => x.User).HasForeignKey<UserSettings>(x => x.UserId);
-
-                // NEW: self reference for reviewed by
-                e.HasOne(x => x.ApprovalReviewedByUser)
-                    .WithMany() // أو .WithMany(u => u.ReviewedUsers) لو أضفتها
-                    .HasForeignKey(x => x.ApprovalReviewedByUserId)
-                    .OnDelete(DeleteBehavior.NoAction);
-
+                e.HasOne(u => u.UserSettings)
+                    .WithOne(s => s.User)
+                    .HasForeignKey<UserSettings>(s => s.UserId);
             });
+
 
             modelBuilder.Entity<City>(e =>
             {
