@@ -32,6 +32,33 @@ namespace Infrastructure
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<User>(e =>
+            //{
+            //    e.ToTable("Users");
+            //    e.HasKey(x => x.Id);
+
+            //    e.Property(x => x.UserType).HasConversion<byte>();
+            //    e.Property(x => x.FullName).HasMaxLength(150).IsRequired();
+            //    e.Property(x => x.Phone).HasMaxLength(20).IsRequired();
+            //    e.Property(x => x.Email).HasMaxLength(150);
+            //    e.Property(x => x.PasswordHash).HasMaxLength(500).IsRequired();
+
+            //    e.HasIndex(x => x.Phone).IsUnique();
+            //    e.HasIndex(x => x.Email).IsUnique().HasFilter("[Email] IS NOT NULL");
+            //    e.HasIndex(x => x.UserType);
+            //    e.HasIndex(x => x.IsActive);
+
+            //    e.HasOne(x => x.Customer).WithOne(x => x.User).HasForeignKey<Customer>(x => x.UserId);
+            //    e.HasOne(x => x.Driver).WithOne(x => x.User).HasForeignKey<Driver>(x => x.UserId);
+            //    e.HasOne(x => x.UserSettings).WithOne(x => x.User).HasForeignKey<UserSettings>(x => x.UserId);
+
+            //    // NEW: self reference for reviewed by
+            //    e.HasOne(x => x.ApprovalReviewedByUser)
+            //        .WithMany() // أو .WithMany(u => u.ReviewedUsers) لو أضفتها
+            //        .HasForeignKey(x => x.ApprovalReviewedByUserId)
+            //        .OnDelete(DeleteBehavior.NoAction);
+
+            //});
             modelBuilder.Entity<User>(e =>
             {
                 e.ToTable("Users");
