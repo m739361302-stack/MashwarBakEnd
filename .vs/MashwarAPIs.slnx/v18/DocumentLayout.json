@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "APIs\\Controllers\\DevSeedController.cs",
               "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\Controllers\\DevSeedController.cs",
               "RelativeToolTip": "APIs\\Controllers\\DevSeedController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T18:25:24.187Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Infrastructure\\MashwarDbContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAMwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:18:25.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T18:18:25.419Z"
             },
             {
               "$type": "Document",
@@ -76,21 +75,19 @@
               "RelativeToolTip": "Application\\Services\\Security\\PasswordHasher.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAawA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T20:18:26.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:18:26.827Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "APIs",
+              "Title": "APIs.csproj",
               "DocumentMoniker": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
               "RelativeDocumentMoniker": "APIs\\APIs.csproj",
               "ToolTip": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
               "RelativeToolTip": "APIs\\APIs.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-28T20:13:06.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:13:06.614Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "APIs\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-28T20:02:18.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T20:02:18.68Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "APIs\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T19:59:24.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T19:59:24.788Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "APIs\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T19:58:58.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-28T19:58:58.753Z"
             }
           ]
         }
