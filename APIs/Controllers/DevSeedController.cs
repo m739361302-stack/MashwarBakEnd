@@ -11,7 +11,7 @@ namespace APIs.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Route("api/v1/dev/seed")]
+ 
     public class DevSeedController : ControllerBase
     {
         private readonly MashwarDbContext _db;
@@ -52,6 +52,7 @@ namespace APIs.Controllers
 
                 // لو email موجود تأكد ما يتعارض مع مستخدم آخر
                 if (email != null)
+               
                 {
                     var emailUsed = await _db.Users.AnyAsync(u => u.Email == email && u.Phone != phone);
                     if (emailUsed) return BadRequest(new { message = "Email مستخدم مسبقًا" });

@@ -18,9 +18,18 @@ namespace Application.DTOs.Auth
 
     public record LoginResponseDto(
         string AccessToken,
-        DateTime ExpiresAtUtc,
-        AuthUserDto User
+        DateTime? ExpiresAtUtc,
+        bool Issuccessful,
+        string message,
+        AuthUserDto? User
     );
+    public record LoginResponseErrorDto(
+
+    bool Issuccessful,
+    string message
+ 
+);
+
 
     public record MeResponseDto(AuthUserDto User);
 
