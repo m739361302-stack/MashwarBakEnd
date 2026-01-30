@@ -1,12 +1,18 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "9pBF77eSdzc=",
-=======
-  "dgSpecHash": "oRIVuAKf5Z8=",
->>>>>>> e48409f3122f52379551d2aac065f5e5f4aebd0f
   "success": true,
-  "projectFilePath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

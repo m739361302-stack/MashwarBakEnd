@@ -15,13 +15,14 @@ using System.Text;
 
 namespace Application.Services
 {
-    public class AuthService: IAuthService
+    public class AuthService : IAuthService
     {
         private readonly MashwarDbContext _db;
         private readonly IJwtTokenService _jwt;
         private readonly IWebHostEnvironment _env;
         private readonly IFileStorage _fileStorage;
-        public AuthService(MashwarDbContext db, IJwtTokenService jwt, IWebHostEnvironment env, IFileStorage fileStorage) {
+        public AuthService(MashwarDbContext db, IJwtTokenService jwt, IWebHostEnvironment env, IFileStorage fileStorage)
+        {
 
             _db = db;
             _jwt = jwt;
@@ -31,81 +32,36 @@ namespace Application.Services
 
         public async Task<LoginResponseDto> LoginAsync(LoginRequestDto dto)
         {
-          
-                var phone = dto.Phone.Trim();
 
-                var user = await _db.Users.AsNoTracking()
-                    .FirstOrDefaultAsync(x => x.Phone == phone);
+            var phone = dto.Phone.Trim();
 
-                if (user == null || !PasswordHasher.Verify(dto.Password, user.PasswordHash))
-                    //throw new InvalidOperationException("بيانات الدخول غير صحيحة");
+            var user = await _db.Users.AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Phone == phone);
 
-                return new LoginResponseDto(
-                     AccessToken: "",
-                     ExpiresAtUtc:null ,
-                     Issuccessful: false,
-                     message: "بيانات الدخول غير صحيحة",
-                     null
-                 );
+            if (user == null || !PasswordHasher.Verify(dto.Password, user.PasswordHash))
+                throw new InvalidOperationException("بيانات الدخول غير صحيحة");
 
-                if (!user.IsActive)
-                    //throw new InvalidOperationException("الحساب غير مفعل");
-                    return new LoginResponseDto(
-                  AccessToken: "",
-                  ExpiresAtUtc: null,
-                  Issuccessful: false,
-                  message: "الحساب غير مفعل",
-                  null
-              );
+            if (!user.IsActive)
+                throw new InvalidOperationException("الحساب غير مفعل");
 
-                // منع سائق غير معتمد من دخول لوحة السائق (لكن يسمح له دخول عام؟ هنا نمنع الدخول كليًا)
-                if (user.UserType == UserType.Driver && user.ApprovalStatus != ApprovalStatus.Approved)
-                    // throw new InvalidOperationException("حساب السائق قيد المراجعة ولم يتم اعتماده بعد");
-                    //if (!user.IsActive)
-                        //throw new InvalidOperationException("الحساب غير مفعل");
-                        return new LoginResponseDto(
-                      AccessToken: "",
-                      ExpiresAtUtc: null,
-                      Issuccessful: false,
-                      message: "حساب السائق قيد المراجعة ولم يتم اعتماده بعد",
-                      null
-                  );
+            // منع سائق غير معتمد من دخول لوحة السائق (لكن يسمح له دخول عام؟ هنا نمنع الدخول كليًا)
+            if (user.UserType == UserType.Driver && user.ApprovalStatus != ApprovalStatus.Approved)
+                throw new InvalidOperationException("حساب السائق قيد المراجعة ولم يتم اعتماده بعد");
 
-                // Update LastLoginAt (اختياري)
-                await _db.Users.Where(x => x.Id == user.Id)
-                    .ExecuteUpdateAsync(setters => setters.SetProperty(x => x.LastLoginAt, DateTime.UtcNow));
+            // Update LastLoginAt (اختياري)
+            await _db.Users.Where(x => x.Id == user.Id)
+                .ExecuteUpdateAsync(setters => setters.SetProperty(x => x.LastLoginAt, DateTime.UtcNow));
 
-                var (token, expiresAt) = _jwt.CreateToken(user);
+            var (token, expiresAt) = _jwt.CreateToken(user);
 
-                //return new LoginResponseDto(
-                //    token,
-                //    expiresAt,
-                //    true,
-                //    "تم جلب البيانات بنجاح",
+            return new LoginResponseDto(
+                token,
+                expiresAt,
+                new AuthUserDto(user.Id, user.FullName, user.Phone, user.Email, (byte)user.UserType, (byte)user.ApprovalStatus, user.IsActive)
+            );
 
-                //    new AuthUserDto(user.Id, user.FullName, user.Phone, user.Email, (byte)user.UserType, (byte)user.ApprovalStatus, user.IsActive)
-                //);
-                return new LoginResponseDto(
-                    AccessToken : token,
-                    ExpiresAtUtc: expiresAt,
-                    Issuccessful:true,
-                    message:"تم جلب البيانات بنجاح",
 
-                    new AuthUserDto(user.Id, user.FullName, user.Phone, user.Email, (byte)user.UserType, (byte)user.ApprovalStatus, user.IsActive)
-                );
-<<<<<<< HEAD
-           
-         
-=======
 
-            }
-            catch (Exception ex )
-            {
-
-                return null;
-            }
->>>>>>> a5fe3ccd2a3e181b99cd9d46821e8519a40f39df
-            
         }
 
         public async Task<ApiOkDto> RegisterDriverAsync2(RegisterDriverRequestDto dto)
@@ -511,7 +467,7 @@ namespace Application.Services
             return new ChangePasswordResponse { Success = true, Message = "Password changed successfully." };
         }
 
-  
+
         private async Task SaveDriverFilesAsync(long driverId, RegisterDriverRequest request, CancellationToken ct)
         {
             var root = Path.Combine(_env.ContentRootPath, "uploads", "drivers", driverId.ToString());
