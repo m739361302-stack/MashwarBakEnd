@@ -11,6 +11,8 @@ namespace Domain.Entities
         public string? NameEn { get; set; }
         public bool IsActive { get; set; }
         public int SortOrder { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
 
         public ICollection<CityRoute> FromRoutes { get; set; } = new List<CityRoute>();
         public ICollection<CityRoute> ToRoutes { get; set; } = new List<CityRoute>();

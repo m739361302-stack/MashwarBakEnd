@@ -14,6 +14,13 @@ namespace Domain.Entities
         public DateTime UploadedAt { get; set; }
         public string? Note { get; set; }
 
+
+        public string FileName { get; set; } = null!;
+        public string StoredPath { get; set; } = null!;
+        public string? ContentType { get; set; }
+        public long SizeBytes { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
+
         public Driver Driver { get; set; } = null!;
     }
 }

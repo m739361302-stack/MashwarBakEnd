@@ -26,5 +26,6 @@ namespace Domain.Entities
         public ICollection<DriverAvailabilitySlot> AvailabilitySlots { get; set; } = new List<DriverAvailabilitySlot>();
         public ICollection<Trip> Trips { get; set; } = new List<Trip>();
         public ICollection<Booking> DriverBookings { get; set; } = new List<Booking>();
+
     }
 }

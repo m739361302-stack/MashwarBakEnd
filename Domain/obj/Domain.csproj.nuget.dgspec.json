@@ -1,23 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj": {}
+    "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj": {
+    "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
         "projectName": "Domain",
+<<<<<<< HEAD
         "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
         "outputPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\obj\\",
+=======
+        "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\96653\\.nuget\\packages\\",
+        "outputPath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\obj\\",
+>>>>>>> e48409f3122f52379551d2aac065f5e5f4aebd0f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\96653\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+>>>>>>> e48409f3122f52379551d2aac065f5e5f4aebd0f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +38,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+>>>>>>> e48409f3122f52379551d2aac065f5e5f4aebd0f
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },

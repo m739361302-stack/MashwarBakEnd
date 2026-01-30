@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9pBF77eSdzc=",
+=======
+  "dgSpecHash": "oRIVuAKf5Z8=",
+>>>>>>> e48409f3122f52379551d2aac065f5e5f4aebd0f
   "success": true,
-  "projectFilePath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
+  "projectFilePath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

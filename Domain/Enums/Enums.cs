@@ -20,7 +20,18 @@ namespace Domain.Enums
         CancelledByAdmin = 5,
         Expired = 6,
         Completed = 7
+
     }
+    public enum BookingStatusCustm : byte
+    {
+        Pending = 1,          // العميل أنشأ الحجز
+        Accepted = 2,         // السائق قبل الحجز
+        Rejected = 3,         // السائق رفض
+        Cancelled = 4,        // العميل ألغى
+        Confirmed = 5,        // تأكيد/دفع (سنفعلها بالكامل في مرحلة الدفع)
+        Completed = 6         // الرحلة اكتملت
+    }
+
 
     public enum PaymentMethod : byte
     {
@@ -68,5 +79,6 @@ namespace Domain.Enums
         Other = 4
     }
 
+    public enum DriverDocType { NationalId = 1, License = 2, CarReg = 3 }
 
 }

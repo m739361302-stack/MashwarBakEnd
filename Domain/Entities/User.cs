@@ -31,8 +31,8 @@ namespace Domain.Entities
         // Navigation
         public User? ApprovalReviewedByUser { get; set; }
 
-        public ICollection<Booking> CustomerBookings { get; set; } = new List<Booking>();
-        public ICollection<Payment> CustomerPayments { get; set; } = new List<Payment>();
+        //public ICollection<Booking> CustomerBookings { get; set; } = new List<Booking>();
+        //public ICollection<Payment> CustomerPayments { get; set; } = new List<Payment>();
         public ICollection<Notification> Notifications { get; set; } = new List<Notification>();
         public ICollection<User> ReviewedUsers { get; set; } = new List<User>();
     }
