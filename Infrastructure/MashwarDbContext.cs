@@ -81,6 +81,7 @@ namespace Infrastructure
                     .HasForeignKey<UserSettings>(s => s.UserId);
             });
 
+
             modelBuilder.Entity<City>(e =>
             {
                 e.ToTable("Cities");

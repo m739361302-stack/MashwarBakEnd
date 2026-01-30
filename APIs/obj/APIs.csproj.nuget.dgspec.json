@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj": {}
+    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj": {}
   },
   "projects": {
-    "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj": {
+    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj",
+        "projectUniqueName": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
         "projectName": "APIs",
-        "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj",
-        "packagesPath": "C:\\Users\\96653\\.nuget\\packages\\",
-        "outputPath": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\obj\\",
+        "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\APIs.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\APIs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\96653\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,19 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Application.csproj": {
-                "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Application.csproj"
+              "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Application.csproj": {
+                "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Application.csproj"
               },
-              "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj"
+              "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -532,22 +528,20 @@
         }
       }
     },
-    "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Application.csproj": {
+    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\96653\\.nuget\\packages\\",
-        "outputPath": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\obj\\",
+        "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\96653\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -556,16 +550,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj"
+              "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -885,22 +877,20 @@
         }
       }
     },
-    "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj": {
+    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\96653\\.nuget\\packages\\",
-        "outputPath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\obj\\",
+        "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\96653\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -909,8 +899,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1228,22 +1216,20 @@
         }
       }
     },
-    "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\96653\\.nuget\\packages\\",
-        "outputPath": "F:\\mohamed\\project\\MashwarBakEnd\\Infrastructure\\obj\\",
+        "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\96653\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1252,16 +1238,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\mohamed\\project\\MashwarBakEnd\\Domain\\Domain.csproj"
+              "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\learn web\\mypoject\\MashwarBakEnd\\MashwarAPIs\\Domain\\Domain.csproj"
               }
             }
           }

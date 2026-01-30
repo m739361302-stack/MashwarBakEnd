@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "F:\\mohamed\\project\\MashwarBakEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\admindriverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\admindriverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\adminbookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\services\\helper\\appclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\helper\\appclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|f:\\mohamed\\project\\mashwarbakend\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|solutionrelative:apis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{362A281D-1FEA-B036-C52B-9441E2CE94CA}|APIs\\APIs.csproj|f:\\mohamed\\project\\mashwarbakend\\apis\\controllers\\admincitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,11 +181,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 41,
+          "SelectedChildIndex": 33,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AdminCityRoutesController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminCityRoutesController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminCityRoutesController.cs",
@@ -198,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ClaimsPrincipalExtensions.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\helper\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "Application\\Services\\helper\\ClaimsPrincipalExtensions.cs",
@@ -211,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppClaims.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\helper\\AppClaims.cs",
               "RelativeDocumentMoniker": "Application\\Services\\helper\\AppClaims.cs",
@@ -224,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\Security\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Security\\JwtTokenService.cs",
@@ -300,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AdminLayoutController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminLayoutController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminLayoutController.cs",
@@ -339,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AdminDashboardController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminDashboardController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminDashboardController.cs",
@@ -404,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AdminReportsController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminReportsController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminReportsController.cs",
@@ -495,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "CitiesController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\CitiesController.cs",
@@ -508,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AdminBookingsController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminBookingsController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminBookingsController.cs",
@@ -547,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Program.cs",
               "RelativeDocumentMoniker": "APIs\\Program.cs",
@@ -560,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AdminTripsController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminTripsController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminTripsController.cs",
@@ -599,26 +599,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AuthController.cs",
               "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AuthController.cs",
               "RelativeToolTip": "APIs\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T06:16:47.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "AuthService.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
               "ToolTip": "F:\\mohamed\\project\\MashwarBakEnd\\Application\\Services\\AuthService.cs",
               "RelativeToolTip": "Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAswDUAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T06:16:47.521Z",
               "EditorCaption": ""
@@ -651,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AdminUsersController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminUsersController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminUsersController.cs",
@@ -716,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AdminDriversController.cs",
               "DocumentMoniker": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\Controllers\\AdminDriversController.cs",
               "RelativeDocumentMoniker": "APIs\\Controllers\\AdminDriversController.cs",

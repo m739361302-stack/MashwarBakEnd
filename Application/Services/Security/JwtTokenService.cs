@@ -26,7 +26,7 @@ namespace Application.Services.Security
 
         public (string token, DateTime expiresAtUtc) CreateToken2(User user)
         {
-            var now = DateTime.UtcNow;
+            var now = DateTime.Now;
             var expires = now.AddMinutes(_opt.ExpMinutes);
 
             var claims = new List<Claim>
