@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OPPwEuIcnkA=",
+  "dgSpecHash": "R8niXvN5Nf0=",
   "success": true,
   "projectFilePath": "F:\\mohamed\\project\\MashwarBakEnd\\APIs\\APIs.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,6 @@
     "C:\\Users\\96653\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\96653\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\96653\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.1\\microsoft.aspnetcore.authentication.jwtbearer.10.0.1.nupkg.sha512",
-    "C:\\Users\\96653\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
     "C:\\Users\\96653\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\96653\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\96653\\.nuget\\packages\\microsoft.build\\17.7.2\\microsoft.build.17.7.2.nupkg.sha512",

@@ -20,9 +20,12 @@ namespace Domain.Entities
         public string? CancelReason { get; set; }
 
         public Trip Trip { get; set; } = null!;
-        public User Customer { get; set; } = null!;
-        public Driver Driver { get; set; } = null!;
+        public Customer Customer { get; set; } = null!;
+        //public User Customer { get; set; } = null!;
 
+        public Driver Driver { get; set; } = null!;
+        public int PassengersCount { get; set; } = 1;
+        public string? Note { get; set; }
         public ICollection<BookingStatusHistory> StatusHistory { get; set; } = new List<BookingStatusHistory>();
         public ICollection<Payment> Payments { get; set; } = new List<Payment>();
     }

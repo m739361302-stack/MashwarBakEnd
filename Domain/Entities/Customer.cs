@@ -12,5 +12,7 @@ namespace Domain.Entities
 
         public User User { get; set; } = null!;
         public City? City { get; set; }
+        public ICollection<Booking> CustomerBookings { get; set; } = new List<Booking>();
+
     }
 }

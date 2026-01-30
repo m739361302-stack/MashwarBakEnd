@@ -17,6 +17,7 @@ namespace Infrastructure
         public DbSet<User> Users => Set<User>();
         public DbSet<Customer> Customers => Set<Customer>();
         public DbSet<Driver> Drivers => Set<Driver>();
+        public DbSet<DriverDocument> DriverDocuments => Set<DriverDocument>();
         public DbSet<DriverVehicle> DriverVehicles => Set<DriverVehicle>();
         public DbSet<DriverAvailabilitySlot> DriverAvailabilitySlots => Set<DriverAvailabilitySlot>();
         public DbSet<City> Cities => Set<City>();
@@ -29,6 +30,8 @@ namespace Infrastructure
         public DbSet<AppSetting> AppSettings => Set<AppSetting>();
         public DbSet<UserSettings> UserSettings => Set<UserSettings>();
         public DbSet<Notification> Notifications => Set<Notification>();
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -107,7 +110,18 @@ namespace Infrastructure
 
                 e.HasOne(x => x.City).WithMany().HasForeignKey(x => x.CityId).OnDelete(DeleteBehavior.NoAction);
             });
+            //modelBuilder.Entity<Customer>(e =>
+            //{
+            //    e.ToTable("Customers");
+            //    e.HasKey(x => x.UserId);
 
+            //    e.Property(x => x.AvatarUrl).HasMaxLength(500);
+
+            //    e.HasOne(x => x.User)
+            //     .WithOne() // أو .WithOne(u => u.Customer) لو عندك Navigation في User
+            //     .HasForeignKey<Customer>(x => x.UserId)
+            //     .OnDelete(DeleteBehavior.Cascade);
+            //});
             modelBuilder.Entity<Driver>(e =>
             {
                 e.ToTable("Drivers");
@@ -219,7 +233,7 @@ namespace Infrastructure
                 e.HasIndex(x => x.Status);
 
                 e.HasOne(x => x.Booking).WithMany(x => x.Payments).HasForeignKey(x => x.BookingId).OnDelete(DeleteBehavior.NoAction);
-                e.HasOne(x => x.Customer).WithMany(x => x.CustomerPayments).HasForeignKey(x => x.CustomerUserId).OnDelete(DeleteBehavior.NoAction);
+                //e.HasOne(x => x.Customer).WithMany(x => x.CustomerPayments).HasForeignKey(x => x.CustomerUserId).OnDelete(DeleteBehavior.NoAction);
             });
 
             modelBuilder.Entity<Refund>(e =>
